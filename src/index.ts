@@ -1,7 +1,6 @@
 import express from "express";
 import { eq } from "drizzle-orm";
 import { db } from "./db/index.ts";
-import { demoUsers } from "./db/schema/index.ts";
 
 const app = express();
 const PORT = 8000;
